@@ -68,6 +68,8 @@ body{
 
 .bg_highlighted{
     background-color: #35bb10;
+    color: white;
+    font-weight: bold;
 }
 
 .highlight{
@@ -111,14 +113,24 @@ body{
 #contenidoProyectos{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#contenidoProyectos a{
+    text-decoration: none;
 }
 
 .proyecto{
     width: 300px;
+    border: 1px white solid;
+    padding: 20px;
+    height: 100%;
+    margin: 20px;
 }
 .proyecto img{
-    width: 300px;
-    margin-bottom: 15px;
+    width: 100%;
+    height: 250px;  
+    margin: 10px;  
 }
 
 form div:first-of-type{
@@ -140,7 +152,6 @@ form{
 }
 
 #contacto button{
-    background-color: #35bb10;
     width: 100%;
     padding: 20px;
     font-size: 23px;
@@ -178,7 +189,11 @@ footer{
 }
 
 footer img{
-    width: 100px;
+    width: 60px;
+}
+
+#footerCorreo{
+    text-align: left;
 }
 
 @media (min-width: 768px){
