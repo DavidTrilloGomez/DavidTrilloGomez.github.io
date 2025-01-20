@@ -1,0 +1,27 @@
+@media (min-width: 768px){
+    /*Inicio*/
+    #inicio h1{
+        font-size: 64px;
+    }
+    .titulo{
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 400) and (max-width: 768px) {
+    #inicio h1{
+        font-size: 55px;
+    }
+    .titulo{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 400px){
+    #inicio h1{
+        font-size: 45px;
+    }
+    .titulo{
+        font-size: 35px;
+    }
+}

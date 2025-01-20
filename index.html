@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>David Trillo - Portfolio</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="css/style.css">
-
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <nav id="menuPrincipal">
             <ul>
                 <li><a href="#inicio" class="link-light">Inicio</a></li>
-                <li><a href="#sobreMi" class="link-light">Sobre mi</a></li>
+                <li><a href="#sobreMi" class="link-light">Sobre mí</a></li>
                 <li><a href="#proyectos" class="link-light">Proyectos</a></li>
                 <li><a href="#contacto" class="link-light">Contacto</a></li>
             </ul>
@@ -25,7 +25,7 @@
     
         <header id="inicio" class="container">
             <h1>Eficiencia y creatividad al servicio de <span class="highlight">tu proyecto</span></h1>
-            <h2>Hola soy David, desarrollador de software, estás interesado en mi trabajo?</h2>
+            <h2>Hola soy David, desarrollador de software, ¿estás interesado en mi trabajo?</h2>
     
             <a href="#proyectos" class="btn bg_highlighted">Ver proyectos</a>
         </header>
@@ -62,33 +62,32 @@
             <h3 class="titulo">Mis proyectos</h3>
             
             <div id="contenidoProyectos">
-                <a href="https://github.com/DavidTrilloEstech/ProyectoIsaac" target="_blank" class="link-light">
                     <div class="proyecto">
-                        <img src="assets/img/proyecto_isaac.jpg" alt="">
+                        <img src="assets/img/proyecto_isaac.jpg" class="portada">
                         <div class="descripcion">
                             <h3>The Basement of Isaac</h3>
                             <p>App para <span class="highlight">android</span> desarrollada en <span class="highlight">kotlin</span> tipo wiki sobre el videojuego "The binding of Isaac: Rebirth" hecha completamente por mi, incluyendo trabajo de pixel art para la edición de assets del juego para adaptarlo al entorno de la app.</p>
+                            <a href="https://github.com/DavidTrilloEstech/ProyectoIsaac" target="_blank" class="link-light linkProyecto">Ver más <img src="assets/img/link_arrow.png"></a>
                         </div>
                     </div>
-                </a>
-                <a href="https://github.com/Josemborras/ProyectoBDFronted" target="_blank" class="link-light">
+                
                     <div class="proyecto">
-                        <img src="assets/img/proyecto_homecinema.png" alt="">
+                        <img src="assets/img/proyecto_homecinema.jpg" class="portada">
                         <div class="descripcion">
                             <h3>HomeCinema</h3>
                             <p>App web de streaming en la trabajé en la <span class="highlight">creacion de la base de datos</span> y las modificaciones posteriores necesarias en la misma, además de desarrollar buena parte del <span class="highlight">backend</span></p>
+                            <a href="https://github.com/Josemborras/ProyectoBDFronted" target="_blank" class="link-light linkProyecto">Ver más <img src="assets/img/link_arrow.png"></a>
                         </div>
                     </div>
-                </a>
-                <a href="https://github.com/devJuanMartinez/WikiFutbol" target="_blank" class="link-light">
+                
                     <div class="proyecto">
-                        <img src="assets/img/proyecto_wikifutbol.png" alt="">
+                        <img src="assets/img/proyecto_wikifutbol.png" class="portada">
                         <div class="descripcion">
                             <h3>WikiFutbol</h3>
                             <p>App <span class="highlight">android</span> creada usando la api football-data.org. Para la consulta de tanto alineaciones de equipos, como resultados de partidos en 13 ligas distintas.</p>
+                            <a href="https://github.com/devJuanMartinez/WikiFutbol" target="_blank" class="link-light linkProyecto">Ver más <img src="assets/img/link_arrow.png"></a>
                         </div>
                     </div>
-                </a>
             </div>
         </section>
 
@@ -101,7 +100,7 @@
                     <input type="text" placeholder="Email" class="halfLengthInput inputContacto">
                 </div>
                 <textarea type="text" placeholder="Tu mensaje" class="fullLengthInput inputContacto"></textarea>
-                <button type="submit" class="bg_highlighted">ENVIAR</button>
+                <button type="submit" class="bg_highlighted btn">ENVIAR</button>
             </form>
         </section>
 
