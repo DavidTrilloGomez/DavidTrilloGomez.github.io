@@ -13,5 +13,7 @@ function handleSubmit(event){
     emailjs.init(serviceId)
 
     emailjs.sendForm(serviceId, templateId, form, apikey).then(result => FileSystemWritableFileStream.fire('Su mensaje se ha enviado con éxito.'))
+
+    window.alert("Mensaje enviado con éxito")
 }
 
