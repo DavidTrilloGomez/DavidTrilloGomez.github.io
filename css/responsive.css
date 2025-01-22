@@ -21,6 +21,14 @@
         width: 50vw;
         margin: 20px;
     }
+
+    form div:first-of-type{
+        justify-content: center;
+    }
+
+    form div .inputContacto{
+        width: 49%;
+    }
 }
 
 /* Vista en tablet */
@@ -42,6 +50,17 @@
     .textoSobreMi{
         width: 70vw;
         margin-bottom: 20px;
+    }
+
+    form div:first-of-type{
+        flex-direction: column;
+    }
+    form div:first-of-type input{
+        margin-bottom: 20px;
+    }
+
+    form div .inputContacto{
+        width: 100%;
     }
 }
 
@@ -65,4 +84,15 @@
         width: 70vw;
         margin-bottom: 20px;
     }
+
+    form div:first-of-type{
+        flex-direction: column;
+    }
+
+    form div .inputContacto{
+        width: 100%;
+    }
+
+
+    
 }
