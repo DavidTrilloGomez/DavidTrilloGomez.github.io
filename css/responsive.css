@@ -1,3 +1,5 @@
+
+/* Vista en ordenador */
 @media (min-width: 768px){
     /*Inicio*/
     #inicio h1{
@@ -6,22 +8,61 @@
     .titulo{
         font-size: 45px;
     }
+
+    /* Sobre mí */
+    #contenidoSobreMi{
+        justify-content: center;
+        margin-bottom: 50px;
+        
+    }
+
+    .textoSobreMi{
+        border: 0.5px solid white;
+        width: 50vw;
+        margin: 20px;
+    }
 }
 
-@media (min-width: 400) and (max-width: 768px) {
+/* Vista en tablet */
+@media (min-width: 400px) and (max-width: 768px){
     #inicio h1{
         font-size: 55px;
     }
     .titulo{
         font-size: 45px;
     }
+
+    #contenidoSobreMi{
+        flex-direction: column;
+        border: 0.5px solid white;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .textoSobreMi{
+        width: 70vw;
+        margin-bottom: 20px;
+    }
 }
 
+/* Vista en móvil */
 @media (max-width: 400px){
     #inicio h1{
         font-size: 45px;
     }
     .titulo{
         font-size: 35px;
+    }
+
+    #contenidoSobreMi{
+        flex-direction: column;
+        border: 0.5px solid white;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .textoSobreMi{
+        width: 70vw;
+        margin-bottom: 20px;
     }
 }

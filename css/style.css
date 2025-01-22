@@ -96,16 +96,11 @@ body{
 
 #contenidoSobreMi{
     display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
     font-size: 20px;
 }
 
-#contenidoSobreMi .textoSobreMi{
-    border: 0.5px solid white;
-    width: 50vw;
+.textoSobreMi{
     padding: 10px;
-    margin: 20px;
 }
 
 
