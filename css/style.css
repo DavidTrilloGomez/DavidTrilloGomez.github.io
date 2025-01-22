@@ -28,6 +28,10 @@ body{
     margin-bottom: 8vh;
 }
 
+.link-light{
+    text-decoration: none;
+}
+
 
 /* Menu superior */
 
@@ -92,20 +96,16 @@ body{
 
 #contenidoSobreMi{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-bottom: 50px;
     font-size: 20px;
-    align-items: center;
-    
-    
 }
 
 #contenidoSobreMi .textoSobreMi{
     border: 0.5px solid white;
     width: 50vw;
     padding: 10px;
-    margin: 0px 0px 50px;
+    margin: 20px;
 }
 
 
@@ -144,13 +144,15 @@ body{
     margin: 10px;  
 }
 
+.proyecto p{
+    margin-bottom: 30px;
+}
 .linkProyecto{
     font-size: 28px;
     border-radius: 100px;
-    margin-top: 7vh;
-    color: white;
     border: 1px solid white;
     padding: 10px 10px 10px 20px;
+    margin-top: 100px;
     
 }
 
@@ -203,6 +205,10 @@ footer{
     padding: 20px 5%;
     background-image: linear-gradient(#1C1C1C, #2D2D2D);
     border-top: 1px solid white;
+}
+
+footer h5{
+    color: #45EF14;
 }
 
 footer img{

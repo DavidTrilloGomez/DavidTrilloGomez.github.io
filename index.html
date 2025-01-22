@@ -94,13 +94,13 @@
 
         <section id="contacto">
             <h3 class="titulo">En que puedo ayudarte?</h3>
-            <form  class="container">
+            <form  class="container" id="contactoForm" action="https://formsubmit.co/trillogomezdavid@gmail.com" method="POST" >
                 <div>
-                    <input type="text" placeholder="Nombre" class="halfLengthInput inputContacto">
-                    <input type="text" placeholder="Email" class="halfLengthInput inputContacto">
+                    <input name="nombre" id="nombre" type="text" placeholder="Nombre" class="halfLengthInput inputContacto" required>
+                    <input name="email" id="email" type="text" placeholder="Email" class="halfLengthInput inputContacto" required>
                 </div>
-                <textarea type="text" placeholder="Tu mensaje" class="fullLengthInput inputContacto"></textarea>
-                <button type="submit" class="bg_highlighted btn">ENVIAR</button>
+                <textarea name="mensaje" id="mensaje" type="text" placeholder="Tu mensaje" class="fullLengthInput inputContacto" required></textarea>
+                <button name="contacto_btn" id="contacto_btn" type="submit" class="bg_highlighted btn">ENVIAR</button>
             </form>
         </section>
 
@@ -109,7 +109,9 @@
             
             <div id="footerCorreo">
                 <h4>Correo electronico</h5>
-                <h5>trillogomezdavid@gmail.com</h5>
+                <a href="mailto:trillogomezdavid@gmail.com" class="highlight">
+                    <h5 class="highlight">trillogomezdavid@gmail.com</h5>
+                </a>
             </div>
             
             <div>
